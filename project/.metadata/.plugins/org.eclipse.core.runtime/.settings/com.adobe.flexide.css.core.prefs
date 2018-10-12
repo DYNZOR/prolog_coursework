@@ -1,0 +1,10 @@
+cssFontFaceBold=true
+cssFontFaceItalic=false
+cssImportBold=true
+cssImportItalic=false
+cssMediaBold=true
+cssMediaItalic=false
+cssSymbolBold=true
+cssSymbolItalic=false
+eclipse.preferences.version=1
+overriddenByCSS=,cssSelectorColor,cssImportColor,cssPropertyNameColor,cssPropertyValueColor,cssFontFaceColor,cssCommentColor,cssMediaColor,cssTextColor,cssStringColor,cssCommentItalic,cssSymbolColor,cssNamespaceColor,cssImportBold,cssFontFaceBold,cssMediaBold,cssSymbolItalic,cssImportItalic,cssMediaItalic,cssSymbolBold,cssFontFaceItalic,

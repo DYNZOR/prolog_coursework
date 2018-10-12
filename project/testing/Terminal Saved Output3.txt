@@ -1,0 +1,71 @@
+|: quit
+true.
+
+?- process_commands.
+Hello? Is anyone there? I am a simple Prolog NLP application created by DMF
+What do I do may you be asking?
+At the moment I have been programmed to understand and translate to the following MacOs/Linux bash shell commands: 
+-- Shutdown the computer
+-- Reboot the computer
+-- Launch web browser
+-- Show the current directory
+-- Show files in a directory
+-- Show the number of files in a directory
+-- Show the size of a file or directory
+-- Copy files
+-- Move files
+-- Delete files
+
+What can I do for you? - 
+|: can you show me each file in the directory /Users/DYN/desktop/project
+total 120
+drwxr-xr-x   2 DYN  staff     68 17 Jan 12:09 1folder
+-rw-r--r--@  1 DYN  staff   2158 19 Jan 11:18 Example Commands
+-rw-------   1 DYN  staff  15428 19 Jan 22:53 app.pl
+drwxr-xr-x   3 DYN  staff    102 19 Jan 18:26 desktop
+drwxr-xr-x   7 DYN  staff    238 19 Jan 18:30 documents
+-rw-------   1 DYN  staff   9937 19 Jan 09:57 et.pl
+-rw-r--r--@  1 DYN  staff   9059 17 Jan 20:40 et_original.pl
+drwxr-xr-x   4 DYN  staff    136 19 Jan 16:29 folder2
+drwxr-xr-x   5 DYN  staff    170 19 Jan 19:21 home
+-rw-r--r--   1 DYN  staff      0 19 Jan 16:04 phpfile2.php
+drwxr-xr-x  12 DYN  staff    408 19 Jan 16:49 resource
+drwxr-xr-x   2 DYN  staff     68 19 Jan 22:51 test1
+drwxr-xr-x   7 DYN  staff    238 19 Jan 22:50 test2
+drwxr-xr-x   4 DYN  staff    136 19 Jan 19:32 testing
+-rw-r--r--   1 DYN  staff  14936 19 Jan 22:50 unix_old.pl
+
+|: would you be able to show me the content within the home folder?
+total 0
+-rw-r--r--  1 DYN  staff  0 17 Jan 19:48 abc123xyz.txt
+-rw-r--r--  1 DYN  staff  0 19 Jan 19:21 phpfile.php
+-rw-r--r--  1 DYN  staff  0 19 Jan 19:21 phpfile2.php
+
+What can I do for you? - 
+|: can you carry all files from the documents folder into the home folder?
+
+What can I do for you? - 
+|: what are all the files in the home folder?
+total 0
+-rw-r--r--  1 DYN  staff  0 17 Jan 19:48 abc123xyz.txt
+-rw-r--r--  1 DYN  staff  0 17 Jan 19:47 audio.mp3
+-rw-r--r--  1 DYN  staff  0 17 Jan 19:47 audio2.mp3
+-rw-r--r--  1 DYN  staff  0 17 Jan 19:47 audio3.mp3
+-rw-r--r--  1 DYN  staff  0 17 Jan 17:38 phpfile.php
+-rw-r--r--  1 DYN  staff  0 17 Jan 17:38 phpfile2.php
+
+What can I do for you? - 
+|: please erase the file phpfile2.php
+remove phpfile2.php? y
+
+What can I do for you? - 
+|: quit
+true.
+
+?- 
+
+
+
+
+
+

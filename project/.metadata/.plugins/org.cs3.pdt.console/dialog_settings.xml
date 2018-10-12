@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="history">
+		<list key="Default Process">
+			<item value="what can you do"/>
+			<item value="?"/>
+			<item value="/"/>
+			<item value="."/>
+			<item value="what can you do?."/>
+			<item value="quit"/>
+			<item value="."/>
+			<item value="quit;"/>
+			<item value="."/>
+			<item value="are there any files in "/>
+			<item value="."/>
+			<item value="process_commands."/>
+			<item value="process_command."/>
+			<item value="shutdown my computer"/>
+			<item value="."/>
+			<item value="."/>
+			<item value="."/>
+			<item value="hjk"/>
+			<item value="/"/>
+			<item value="cut"/>
+			<item value="process_commands."/>
+			<item value="process_commands."/>
+			<item value="process_command"/>
+			<item value="process_commands."/>
+			<item value="shutdown"/>
+			<item value="quit"/>
+		</list>
+		<list key="Assignment_2_Program">
+			<item value="process_commands."/>
+			<item value="Can you shutdown the computer?"/>
+			<item value="process_commands."/>
+			<item value="process_commands."/>
+			<item value="process_commands."/>
+			<item value="process_commands."/>
+			<item value="process_commands."/>
+			<item value="process_commands."/>
+			<item value="shutdown system"/>
+			<item value="process_commands."/>
+			<item value="shutdown system "/>
+			<item value="process_commands."/>
+			<item value="power off "/>
+		</list>
+	</section>
+</section>

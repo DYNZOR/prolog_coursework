@@ -1,0 +1,86 @@
+?- process_commands.
+Hello? Is anyone there? I am a simple Prolog NLP application created by DMF
+What do I do may you be asking?
+At the moment I have been programmed to understand and translate to the following MacOs/Linux bash shell commands: 
+-- Shutdown the computer
+-- Reboot the computer
+-- Launch web browser
+-- Show the current directory
+-- Show files in a directory
+-- Show the number of files in a directory
+-- Show the size of a file or directory
+-- Copy files
+-- Move files
+-- Delete files
+
+What can I do for you? - 
+|: what is the current directory?
+/Users/DYN/desktop/project
+
+|: show me the content in /Users/DYN/desktop/project
+total 120
+drwxr-xr-x   2 DYN  staff     68 17 Jan 12:09 1folder
+-rw-r--r--@  1 DYN  staff   2158 19 Jan 11:18 Example Commands
+-rw-------   1 DYN  staff  16369 19 Jan 18:27 app.pl
+-rw-r--r--   1 DYN  staff      0 17 Jan 19:47 audio.mp3
+-rw-r--r--   1 DYN  staff      0 17 Jan 19:47 audio2.mp3
+-rw-r--r--   1 DYN  staff      0 17 Jan 19:47 audio3.mp3
+drwxr-xr-x   3 DYN  staff    102 19 Jan 18:26 desktop
+drwxr-xr-x   4 DYN  staff    136 19 Jan 18:28 documents
+-rw-------   1 DYN  staff   9937 19 Jan 09:57 et.pl
+-rw-r--r--@  1 DYN  staff   9059 17 Jan 20:40 et_original.pl
+drwxr-xr-x   6 DYN  staff    204 18 Jan 00:49 folder1
+drwxr-xr-x   4 DYN  staff    136 19 Jan 16:29 folder2
+-rw-r--r--   1 DYN  staff      0 19 Jan 16:04 phpfile.php
+-rw-r--r--   1 DYN  staff      0 19 Jan 16:04 phpfile2.php
+drwxr-xr-x  12 DYN  staff    408 19 Jan 16:49 resource
+-rw-r--r--   1 DYN  staff      0 17 Jan 19:48 test.txt
+-rw-r--r--   1 DYN  staff  14929 19 Jan 16:31 unix_old.pl
+
+What can I do for you? - 
+|: how big is the documents folder
+  0B
+
+What can I do for you? - 
+|: please migrate all mp3 files into the documents folder
+
+|: please show me everything in the documents folder
+total 0
+-rw-r--r--  1 DYN  staff  0 17 Jan 19:47 audio.mp3
+-rw-r--r--  1 DYN  staff  0 17 Jan 19:47 audio2.mp3
+-rw-r--r--  1 DYN  staff  0 17 Jan 19:47 audio3.mp3
+-rw-r--r--  1 DYN  staff  0 17 Jan 17:38 phpfile.php
+-rw-r--r--  1 DYN  staff  0 17 Jan 17:38 phpfile2.php
+
+|: can you duplicate every file in the documents folder into the folder1 folder
+
+|: please show me all files in the folder folder1
+total 0
+-rw-r--r--  1 DYN  staff  0 19 Jan 18:41 audio.mp3
+-rw-r--r--  1 DYN  staff  0 19 Jan 18:41 audio2.mp3
+-rw-r--r--  1 DYN  staff  0 19 Jan 18:41 audio3.mp3
+-rw-r--r--  1 DYN  staff  0 19 Jan 18:41 phpfile.php
+-rw-r--r--  1 DYN  staff  0 19 Jan 18:41 phpfile2.php
+-rw-r--r--  1 DYN  staff  0 17 Jan 19:48 test123.txt
+-rw-r--r--  1 DYN  staff  0 16 Jan 21:51 textfile.txt
+
+What can I do for you? - 
+|: what is the size of folder1?
+  0B
+
+What can I do for you? - 
+|: how many files are there in folder1?
+       7
+
+What can I do for you? - 
+|: please remove everything from folder1
+
+What can I do for you? - 
+|: count the files in folder1?
+       0
+
+What can I do for you? - 
+|: exit
+true.
+
+?- 
